@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="allSections">
+      <h1 class="famousPlays">Популярні інтерактивні ігри</h1>
+      <hr />
+    </header>
+
+    <main class="plays">
+      <!-- section 1 (Рік, в який ти народився) -->
+      <section class="yearBorn">
+        <h2 class="checkBorn">Перевір в який рік ти народився</h2>
+        <div class="container">
+          <div class="change__number">
+            <form class="form__inp"  action="/action_page.php">
+              <label for=""
+                ><input
+                  type="text"
+                  placeholder="Введіть рік народження"
+                  class="input__year"
+                  name="year"
+              /></label>
+              <button class="btn__img">
+                <img
+                  src="./images and icons Project/Frame 105.png"
+                  alt=""
+                  class="input__icon"
+                />
+              </button>
+            </form>
+          </div>
+          <p class="number">Ви народилися у високосний рік!</p>
+        </div>
+      </section>
+      <hr />
+      <section class="calculator">
+        <h2 class="calc">Калькулятор</h2>
+        <div class="container">
+          <input
+            type="text"
+            placeholder="Введіть число"
+            class="numb__calc"
+            name="calc"
+          />
+          <div class="icons">
+            <button class="icon" value="+">+</button>
+            <button class="icon" value="*">*</button>
+            <button class="icon" value="/">/</button>
+            <button class="icon" value="-">-</button>
+          </div>
+          <input
+            type="text"
+            placeholder="Введіть число"
+            class="numb__calc"
+            name="calc"
+          />
+          <button class="icon2" value="=">=</button>
+          <input type="text" placeholder="Результат" class="numb" name="calc" />
+        </div>
+      </section>
+      <hr />
+      <section class="three__numbers">
+        <h2 class="numbers">Введіть 3 числа</h2>
+        <div class="container">
+          <input
+            type="text"
+            class="inp__num"
+            placeholder="Введіть число"
+            name="num"
+          />
+          <input
+            type="text"
+            class="inp__num"
+            placeholder="Введіть число"
+            name="num"
+          />
+          <input
+            type="text"
+            class="inp__num"
+            placeholder="Введіть число"
+            name="num"
+          />
+        </div>
+        <p class="big__numb">Найбільше число, яке ви ввели - (число)</p>
+      </section>
+      <hr />
+      <section class="scientists__ux">
+        <h2 class="put__scientists">Обери вченого/ux</h2>
+        <div class="grid">
+          <div class="gray__square" id="1"></div>
+          <div class="gray__square" id="2"></div>
+          <div class="gray__square" id="3"></div>
+          <div class="gray__square" id="4"></div>
+          <div class="gray__square" id="5"></div>
+          <div class="gray__square" id="6"></div>
+          <div class="gray__square" id="7"></div>
+          <div class="gray__square" id="8"></div>
+          <div class="gray__square" id="9"></div>
+          <div class="gray__square" id="10"></div>
+          <div class="gray__square" id="11"></div>
+          <div class="gray__square" id="12"></div>
+        </div>
+        <div class="choose__scientist">
+          <div class="div__buttons">
+            <div class="first__button__block">
+              <button class="the__first__btn">
+                Які вчені народилися в 19 ст.
+              </button>
+              <button class="the__first__btn">
+                Відсортувати вчених за алфавітом
+              </button>
+              <button class="the__first__btn">
+                Відсортувати вчених за кількістю прожитих років
+              </button>
+              <button class="the__first__btn">
+                Знайти вченого, який народився найпізніше
+              </button>
+            </div>
+            <div class="second__button__block">
+              <button class="the__second__btn">
+                Знайти рік народження Albert Einshtein
+              </button>
+              <button class="the__second__btn">
+                Знайти вчених, прізвища яких починаються на на літеру “С”
+              </button>
+              <button class="the__second__btn">
+                Видалити всіх вчених, ім’я яких починається на “А”
+              </button>
+              <button class="the__second__btn">
+                Знайти вченого, який прожив найдовше і вченого, який прожив
+                найменше
+              </button>
+            </div>
+          </div>
+          <button class="the__word__btn">
+            Знайти вчених, в яких співпадають перші літери імені і прізвища
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="coding__magic">
+      <address class="footer">
+        <img
+          src="./images and icons Project/Group 128 1.png"
+          alt="coding image"
+          class="coding__img"
+        />
+        <div class="ul">
+          <a href="tel:+381234567890" class="coding__btn"
+            >Тел: +38 (123) 456 78 90</a
+          >
+          <br />
+          <a
+            href="https://support.google.com/"
+            target="_blank"
+            class="coding__btn"
+            >E-mail: codingmagic@gmail.com</a
+          >
+          <br />
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="coding__btn"
+            >Facebook: to Facebook</a
+          >
+          <br />
+          <a
+            href="https://twitter.com/?lang=ru"
+            target="_blank"
+            class="coding__btn"
+            >Twitter: to Twitter</a
+          >
+          <br />
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="coding__btn"
+            >Instagram: to Instagram</a
+          >
+        </div>
+        <form class="form">
+          <label for=""
+            ><input
+              type="text"
+              class="inp__email"
+              placeholder="Ваша ел. адреса..."
+              name="email"
+              placeholder="Ваша електронна пошта:"
+          /></label>
+          <button type="submit" id="btn__coding" class="coding-button">
+            Підписатись
+          </button>
+          <p class="p__coding">
+            *Підписавшись, Ви зможете ортимувати інформаццію про новинки на
+            сайті
+          </p>
+        </form>
+      </address>
+    </footer>
+
+    <form action="" class="modal__form" for="">
+    <div class="my__modal" style="display: none;">
+      <!-- <button class="close__bnt">&times;</button> -->
+      <h1 class="modal__title">Привіт, User!</h1>'
+    <div class="modal__text__container">
+      <p class="modal__text">Ви потрапили на сайт інтерактивних ігор та завдань!
+        Надіємось, що вам сподобається і ви отримаєте позитивні емоції!
+        <br> Бажаємо Вам гарно провести час!</p>
+        </div>
+        <h2 class="modal__title2">Введіть своє ім’я:</h2>
+        <label><input type="text" class="modal__input" name="inpt__modal" placeholder="Ваше ім’я..."></label>
+        <br>
+        <button class="modal__btn">Зберегти</button>
+    </div>
+  </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
